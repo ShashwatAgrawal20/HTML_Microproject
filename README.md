@@ -11,7 +11,7 @@ To run this project in your local machine, just clone this project or if you wan
 Clone the project
 
 ```bash
-  git clone https://github.com/MrCracker-OP/microprojecthtml.github.io
+  git clone https://github.com/MrCracker-OP/microprojecthtml.github.io.git
 ```
 
 Go to the project directory
@@ -38,9 +38,9 @@ Start the server
 This is a combine collab of the college students pursuing the Projects.
 
 
+## 🔗 Visit Our Website Below 
 
+You can visit the website in real time as it is hosted on the url :- 
 
-
-
-
+http://crackermr.tk/microprojecthtml.github.io
 
