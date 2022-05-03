@@ -30,11 +30,10 @@
 }
 
 .containerp1{
-margin-top: 30px;
+padding-top: 30px;
     margin-left: 10px;
 margin-right: 10px;
 background: white;
-border-radius: 20px;
 border: #f9d806;
 border-style: solid;
 
