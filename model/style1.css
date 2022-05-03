@@ -30,7 +30,8 @@
 }
 
 .containerp1{
-    padding-left: 20px;
+    margin-left: 20px;
+margin-right: 20px;
 background: white;
 border-radius: 20px;
 border: #f9d806;
