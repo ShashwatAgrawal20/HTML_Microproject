@@ -42,5 +42,5 @@ This is a combine collab of the college students pursuing the Projects.
 
 You can visit the website in real time as it is hosted on the url :- 
 
-http://crackermr.tk/microprojecthtml.github.io
+https://crackermr.tk/microprojecthtml.github.io
 
