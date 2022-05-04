@@ -17,7 +17,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd microprojecthtml
+  cd microprojecthtml.github.io
 ```
 
 Install dependencies
