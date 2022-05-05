@@ -100,10 +100,12 @@ section{
     margin:0 1rem;
     font-size: 1.7rem;
     color:var(--black);
+    background-color: #c9c9c9a8;
 }
 
 .header .navbar a:hover{
-    color:var(--yellow);
+    background-color: black;
+    color: white;
 }
 
 #login-btn .btn{
