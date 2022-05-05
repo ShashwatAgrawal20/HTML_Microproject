@@ -101,6 +101,8 @@ section{
     font-size: 1.7rem;
     color:var(--black);
     background-color: #c9c9c9a8;
+    padding: 9px;
+    border-radius: 0.5rem;
 }
 
 .header .navbar a:hover{
