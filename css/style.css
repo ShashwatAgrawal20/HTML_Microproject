@@ -345,7 +345,6 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
-    /* background-color: black; */
 }
 
 .services .box-container .box{
@@ -354,7 +353,6 @@ section{
     box-shadow: var(--box-shadow);
     border:var(--border);
     text-align: center;
-    /* background-color: black; */
 }
 
 .services .box-container .box i{
@@ -366,7 +364,6 @@ section{
     margin-bottom: 1rem;
     background:white;
     color:var(--black);
-    /* background-color: black; */
 }
 
 .services .box-container .box h3{
@@ -380,7 +377,6 @@ section{
     padding:1rem 0;
     font-size: 1.4rem;
     color:var(--light-color);
-    /* background-color: black; */
 }
 
 .services .box-container .box .btn{
@@ -389,7 +385,6 @@ section{
 }
 
 .services .box-container .box:hover {
-    /* background: var(--black); */
     background-color: black;
 }
 
@@ -618,47 +613,16 @@ section{
 }
 
 .footer .credit{
-    /* position: absolute; */
     text-align: center;
-    position: absolute;
-    /* top: 50%;  */
-    /* left: 50%;  */
-    left: 50%;
-    transform: translate(-50%, -50%);
     padding:1.5rem;
     padding-top: 2.5rem;
     margin-top: 2rem;
     border-top: var(--border);
     font-size: 2rem;
     color:var(--black);
-    background-image: linear-gradient(transparent 0%, transparent 90%, #ff0404 90%, black 100%);
-    background-repeat: no-repeat;
-    background-size: 0% 100%;
-    background-position-x: right;
-    transition: background-size 1000ms;
-}
-.footer .credit:hover{
-    background-size: 100% 100%;
-    background-position-x: left;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Media Queries */
 
 @media (max-width:991px){
 
