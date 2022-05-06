@@ -388,6 +388,10 @@ section{
     background-color: white;
 }
 
+.services .box-container .box:hover i {
+    background-color: yellow !important;
+}
+
 .services .box-container .box:hover {
     background-color: black;
 }
@@ -485,14 +489,16 @@ section{
     height: 100%;
     width:17rem;
     font-size: 1.7rem;
-    color:var(--black);
-    background: var(--light-yellow);
+    color: white;
+    background: black;
     cursor: pointer;
 }
 
 .newsletter form input[type="submit"]:hover{
-    background: var(--yellow);
+    background: #c9c9c9a8;
+    color: black;
 }
+
 
 .reviews .review-slider{
     padding-bottom: 3rem;
