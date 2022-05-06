@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+        #more {display: none;}
+        
         body {
             font-family: Arial;
             font-size: 17px;
@@ -134,10 +136,11 @@
 
     <h2>Tesla Payment page</h2>
     <p>The Terms and Conditions contained herein shall apply to any person (“Applicant”) using the
-        services of Adani Institute of Infrastructure Management (AIIM) for making Application
+        servi<span id="dots">...</span><span id="more">ces of Adani Institute of Infrastructure Management (AIIM) for making Application
         through an online payment gateway service (“Service”) offered by Payment Gateway Service
         provider, through AIIM’s website i.e. https://www.aiim.ac.in. Each Applicant is therefore
-        deemed to have read and accepted these Terms and Conditions.</p>
+        deemed to have read and accepted these Terms and Conditions.</span></p>
+<button onclick="myFunction()" id="myBtn">Read more</button>
     <div class="row">
         <div class="col-75">
             <div class="container">
@@ -218,6 +221,25 @@
             </div>
         </div>
     </div>
+                            
+                            <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
 
 </body>
 
