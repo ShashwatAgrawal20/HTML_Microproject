@@ -34,7 +34,7 @@ padding-top: 30px;
 margin-left: 10px;
 margin-right: 10px;
 background: white;
-border: #f9d806;
+border: #c9c9c9a8 ;
 border-radius: 0.1rem;
 border-width: 8px;
 border-style: solid;
@@ -86,8 +86,8 @@ section{
     display: inline-block;
     margin-top: 1rem;
     padding:.8rem 3rem;
-    background:var(--light-yellow);
-    color:var(--black);
+    background: black;
+    color: white;
     cursor: pointer;
     font-size: 1.7rem;
     border-radius: .5rem;
@@ -96,7 +96,8 @@ section{
 }
 
 .btn:hover{
-    background:var(--yellow);
+    background:#c9c9c9a8;
+color: black;
 }
 
 .header{
