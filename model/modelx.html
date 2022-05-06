@@ -88,7 +88,7 @@
   </div>
 </div>
 	    <div class="buy-box" id="login-btn" style="margin-top: 13px;margin-bottom: 100px;">
-    <button class="ctn ctn-white ctn-animate" style=" font-family: sans-serif;
+    <button class="btn ctn ctn-white ctn-animate" style=" font-family: sans-serif;
     font-weight: bold;">Buy Now</button>
 </div>
 <div class="login-form-container">
@@ -96,16 +96,27 @@
     <span id="close-login-form" class="fas fa-times"></span>
 
     <form action="">
-        <h3>user login</h3>
-      <label for="name">Name</label>  <input type="Name" id="name" placeholder="Enter Name" class="box">
+        <h3>Billing Address</h3>
+       <input type="text" id="name" placeholder="Enter Name" class="box">
         <input type="email" placeholder="email" class="box">
         <input type="password" placeholder="password" class="box">
-        <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
         <input type="text" id="adr" name="address" placeholder="Enter Address" class="box">
-        <label for="city"><i class="fa fa-institution"></i> City</label>
         <input type="text" id="city" name="city" placeholder="Enter City " class="box">
-         <label for="zip">Zip</label>
-         <input type="text" id="zip" name="zip" placeholder="00000" class="box">
+         <input type="text" id="zip" name="zip" placeholder="Zip Code(000000)" class="box">
+<h3>Payment</h3>
+<label for="fname">Accepted Cards</label>
+                                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                <i class="fa fa-cc-discover" style="color:orange;"></i>
+<input type="text" id="cname" name="cardname" placeholder="Name on Card" class="box">
+<input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" class="box">
+<input type="text" id="expmonth" name="expmonth" placeholder="Expiry Month" class="box">
+<input type="text" id="expyear" name="expyear" placeholder="Exp year(2000)">
+<input type="text" id="cvv" name="cvv" placeholder="cvv(000)">
+
+<input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                    </label>
         
     </form>
 
