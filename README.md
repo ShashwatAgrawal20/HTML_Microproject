@@ -42,6 +42,5 @@ This is a combine collab of the college students pursuing the Projects.
 
 You can visit the website in real time as it is hosted on the url :- 
 
-http://www.
-projectht.ml
+http://www.projectht.ml
 
